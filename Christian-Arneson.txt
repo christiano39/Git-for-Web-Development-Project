@@ -85,33 +85,42 @@ For lowercase, it would be text-transform: lowercase;
 For Capitalize, it would be text-transform: capitalize;
 
 28. How do I add a 1px border around my div that is dotted and black?
-
+You would use border: 1px dotted black;
 
 29. How do I select everything on the page?
-
+You would use the universal selector, *.
 
 30. How do I write a comment in CSS?
-
+To comment, you would use /* comment here */.
 
 31. How do I find out what file I am in, when I am using the command line?
-
+You would use the command pwd. 
 
 32. Using the command line - how do I see a list of files/folders in my current folder?
-
+You would use the command ls.
 
 33. How do I remove a file via the command line? Why do I have to be careful with this?
-
+To remove a file, you would use the command rm 'filename'. You have to be cautious with this command because it does not give you a 
+confirmation prompt, and it also does not send the file to the recycling bin.
 
 34. Why should I use version control?
-
+Version control is useful because it allows you to revert to many different previous states, which could be used when debugging your newest version.
 
 35. How often should I commit to github?
-
+You should commit to GitHub every 20 minutes or after each new feature.
 
 36. What is the command we would use to push our repo up to github?
-
+You would use the command git push -u origin branch-name
 
 37. Walk me through Lambda's git flow.
+    1. Fork the repo to your own account.
+    2. Add your TL as a collaborator.
+    3. Clone the repo to your local machine.
+    4. Create a new branch named after your first and last name.
+    5. Do the assignment.
+    6. Use the add, commit, and push commands to push the assignment to your forked GitHub repo
+    7. Create a pull request using your forked repo as the base.
+    8. Add your TL as a reviewer.
 
 
 Stretch Questions
